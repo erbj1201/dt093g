@@ -22,3 +22,4 @@ Den andra delen går ut på att skapa ett nytt remote repository med en kort bes
 ### Kommando för att genom terminalen/kommandoprompten klona mitt repository till din dator  
 [Repository Erbj1201/dt093g](https://github.com/erbj1201/dt093g.git  "Repository dt093g tillhörande erbj1201") 
 
+Länk till min profil: [Länk till min profil](https://github.com/erbj1201) "Länk till erbj1201s profil")
