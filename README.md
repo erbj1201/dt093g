@@ -24,4 +24,3 @@ Den andra delen går ut på att skapa ett nytt remote repository med en kort bes
 
 [Länk till min profil](https://github.com/erbj1201) "Länk till erbj1201s profil")
 
-Testar att lägga till text 
