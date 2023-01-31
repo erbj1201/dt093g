@@ -1,7 +1,7 @@
 body{
-    background-color: #f5ebe0;
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+    color: #718355;
 }
 h1{
     font-size: 2em;
@@ -11,20 +11,21 @@ h1{
 h2{
     font-size: 1.7em;
     font-weight:bold;
-    color: #d5bdaf;
+    color: #718355;
 }
 h3{
     font-size: 1.4em;
     font-weight: bold;
-    color: #d5bdaf;
+    color: #718355;
 }
 header, footer{
-background-color: #e3d5ca;
+background-color: #87986a;
 text-align: center;
 color: white;
+padding: 1%;
 }
 #sidebar{
-    background-color: #d6ccc2;
+    background-color: #b5c99a;
     
 }
 #sidebar h2{
@@ -35,24 +36,20 @@ nav ul{
     display: inline;
 }
 nav li{
-    background-color: #e3d5ca;
+    background-color: #b5c99a;
         display: inline;
-    padding: 2%;
+    padding: 1%;
 }
 nav li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color:white;
 }
 nav li:hover{
-    background-color: white;
-    color: #685d56;
+    background-color: #718355;
     
 }
 nav li a:active{
     text-decoration: underline;
     color: black;
-}
-nav li a:hover{
-    color: #685d56;
 }
