@@ -5,6 +5,6 @@
             <br> Copyright © Erika Vestin 2023 </p>
         </footer><!-- /mainfooter -->
     </div><!-- /container -->
-    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
