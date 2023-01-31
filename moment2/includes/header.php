@@ -10,7 +10,7 @@
 <body>
 <div id="container">
     <header id="mainheader">
-            <h1>PHP Struktur</h1>
+            <h1>Webbutveckling II - Moment 2</h1>
             <?php include("includes/mainmenu.php"); ?>
     </header>
     <main>

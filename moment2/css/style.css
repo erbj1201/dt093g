@@ -1,3 +1,4 @@
+/*Inställningar för typsnitt, bakgrundsfärger, textfärger, storlekar mm. för alla skärmstorlekar*/
 body{
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,9 +32,14 @@ padding: 1%;
 #sidebar h2{
     color: white;
 }
+nav{
+    
+}
 nav ul{
     list-style-type: none;
     display: inline;
+    background-color: #b5c99a;
+    padding: 2%;
 }
 nav li{
     background-color: #b5c99a;
@@ -49,7 +55,33 @@ nav li:hover{
     background-color: #718355;
     
 }
-nav li a:active{
-    text-decoration: underline;
-    color: black;
+/*Media Queries*/
+
+/*Små skärmar - mobiltelefon */
+@media screen and (max-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header{
+        display: grid;
+        grid-area: 1/1;
+        width: 100%;
+    }
+}
+
+/*Mellanstora skärmar - surfplatta*/
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+/*Stora skrämar - dator*/
+@media screen and (min-width: 1024px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
