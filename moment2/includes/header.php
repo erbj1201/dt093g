@@ -15,5 +15,5 @@
     </header>
     <main>
         <section id="leftcontent">
-            <h2>Webbplatsens huvudinnehåll</h2>
+            
             
